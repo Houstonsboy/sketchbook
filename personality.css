@@ -1,0 +1,171 @@
+:root{
+    --background-color:rgb(6,11,25);
+    --border-color:rgb(255,255,255,0.1)
+}
+*{
+    margin:0;
+    padding:0;
+}
+body{
+  background-color:var(--background-color);
+  display:flex;
+    flex-direction: column;
+    height:100%;
+    margin:0px;
+    
+
+}
+.profile
+{
+    border-radius:75px;
+    width:150px;
+    height:150px;
+}
+.a
+{
+    border-radius:75px;
+    width:150px;
+    height:150px;
+}
+.b
+{
+    border-radius:75px;
+    width:150px;
+    height:150px;
+}
+.c
+{
+    border-radius:75px;
+    width:150px;
+    height:150px
+}
+{
+    text-align:center;
+    color:green;
+}
+img{
+    border-color: var(--border-color);
+}
+nav
+{
+    display:flex;
+    width:100%;
+    border-bottom:1px solid var(--border-color);
+    color:white;
+    position:relative ;
+}
+nav>ul>li{
+    display:inline;
+    float:left;
+    padding:10px 100px 0px 100px;
+    
+}
+main{
+    flex-grow:1;
+}
+.name{
+    border-bottom:1px solid var(--border-color);
+    text-align:center;
+    color:white;
+    background-image:url("Written And Directed By Quentin Tarantino T-Shirt - FiveFingerTees.jpg");
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    position:relative;
+}
+main>article{
+    display:grid;
+    height:100%;
+    grid-template-columns:1fr 3fr;
+    grid-template-rows:1fr 3fr;
+}
+.left-column
+{
+    border-right: 2px solid var(--border-color);
+    color:white;
+    text-align:center;
+}
+ul>li{
+    
+    list-style-type:none;
+}
+.left-column>ul>li{
+    margin:40px;
+}
+div{
+    border-bottom:1px solid var(--border-color);
+}
+h3{
+    color:rgb(9, 170, 36);
+}
+.art
+{
+    text-align:center;
+    color:rgb(51, 228, 15);
+}
+.right-column>.reservoir-dogs{
+    height: 500px;
+    width:auto;
+    border-radius:100%;
+    
+}
+.work>ul>li
+{
+    display:inline;
+    transition-duration:0.5s;
+    
+}
+.text{
+    opacity:0;
+}
+
+button{
+    transition-duration: 0.5s;
+}
+button:hover
+{
+    transform:scale(1.1);
+
+}
+.rd
+{
+    width:230px;
+    height:300px;
+}
+.pf
+{
+    width:250px;
+    height:300px;
+}
+.kb1
+{
+    width:250px;
+    height:300px;
+}
+.kb2
+{
+    width:250px;
+    height:300px;
+}
+.ib
+{
+    width:250px;
+    height:300px;
+}
+.oatih
+{
+    width:250px;
+    height:300px;
+    position:relative;
+}
+.gun{
+    position:relative;
+}
+.text{
+    position:absolute;
+
+}
+@media screen and (max-width:700px)
+{
+    
+}
